@@ -16,7 +16,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
-          user: Enter-tainer
+          user: swift-zym
           template: classic
           base: header, activity, community, metadata
           config_timezone: Asia/Shanghai
