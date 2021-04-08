@@ -70,7 +70,7 @@ jobs:
         run: |
           ./Chart_Tools/svg2xxx_release/svg2xxx  github-metrics.svg.svg -t png
 
-       - name Clear tools
+      - name: Clear tools
         run: |
           rm Chart_Tools_20120229.zip
           rm -rf Chart_Tools_20120229
