@@ -8,6 +8,8 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@master
       - uses: actions/setup-java@v2
         with:
           distribution: 'zulu' # See 'Supported distributions' for available options
