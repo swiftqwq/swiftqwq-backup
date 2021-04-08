@@ -1,0 +1,103 @@
+8
+
+dir
+2
+svn+ssh://lishengting@svn.code.sf.net/p/charttools/code-0/trunk/svg2xxx_release
+svn+ssh://lishengting@svn.code.sf.net/p/charttools/code-0
+
+
+
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+
+
+svn:special svn:externals svn:needs-lock
+
+fop-0.90alpha1
+dir
+
+genSvgList.pl
+file
+
+
+
+
+2009-02-27T08:42:19.000000Z
+ceebd25657e40aa4378ae4160a5362fb
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+
+buildFo
+file
+
+
+
+
+2009-02-27T08:37:06.000000Z
+2012d81bf753b40a91f4a7e691b69baa
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+
+fop-0.20.5
+dir
+
+lib
+dir
+
+genVBforPP
+file
+
+
+
+
+2009-02-27T08:37:00.000000Z
+d28445c238e8a0db381d68f878074ea5
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+
+svg2xxx
+file
+
+
+
+
+2009-09-14T11:57:30.000000Z
+6903e643954186aff4393956c6a577e4
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+
+batik-rasterizer.jar
+file
+
+
+
+
+2005-04-10T02:05:02.000000Z
+c2e5e5c070b2c2cc19e45f522b678272
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+
+buildInFont
+file
+
+
+
+
+2009-02-27T08:37:04.000000Z
+c6d036a59cc117beff543fdff1be6a60
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+

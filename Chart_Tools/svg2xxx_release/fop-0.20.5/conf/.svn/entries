@@ -1,0 +1,55 @@
+8
+
+dir
+2
+svn+ssh://lishengting@svn.code.sf.net/p/charttools/code-0/trunk/svg2xxx_release/fop-0.20.5/conf
+svn+ssh://lishengting@svn.code.sf.net/p/charttools/code-0
+
+
+
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+
+
+svn:special svn:externals svn:needs-lock
+
+config.dtd
+file
+
+
+
+
+2003-08-13T01:11:34.000000Z
+ab13bd4c121bdf7d3c3ef74f1651e890
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+
+userconfig.xml
+file
+
+
+
+
+2006-11-13T13:27:32.000000Z
+d9599ba7b4d5224106ed3d469938c646
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+
+config.xml
+file
+
+
+
+
+2006-11-13T13:27:34.000000Z
+c087da8d9823b278b5c8064f2e7a014e
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+

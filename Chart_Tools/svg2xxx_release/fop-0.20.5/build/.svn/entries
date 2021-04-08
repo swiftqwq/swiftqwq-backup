@@ -1,0 +1,29 @@
+8
+
+dir
+2
+svn+ssh://lishengting@svn.code.sf.net/p/charttools/code-0/trunk/svg2xxx_release/fop-0.20.5/build
+svn+ssh://lishengting@svn.code.sf.net/p/charttools/code-0
+
+
+
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+
+
+svn:special svn:externals svn:needs-lock
+
+fop.jar
+file
+
+
+
+
+2003-08-13T07:00:42.000000Z
+5f64edca1c155ee4d1e9d5a962898596
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+

@@ -1,0 +1,60 @@
+8
+
+dir
+1
+svn+ssh://lishengting@svn.code.sf.net/p/charttools/code-0/trunk
+svn+ssh://lishengting@svn.code.sf.net/p/charttools/code-0
+
+
+
+2012-02-29T09:49:09.644765Z
+1
+allura
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+07fc4c88-758a-4b5d-a438-187831ff0b15
+
+Svg
+dir
+
+distributing_svg.pl
+file
+2
+
+
+
+2012-02-14T22:06:37.000000Z
+6b26ab4ec4caf3600e179c212c2fd5b5
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+
+map_svg.pl
+file
+2
+
+
+
+2010-01-04T21:28:06.000000Z
+336c30024e33a7409433e08e58d16590
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+
+svg2xxx_release
+dir
+

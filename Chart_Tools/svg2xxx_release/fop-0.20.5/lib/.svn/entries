@@ -1,0 +1,42 @@
+8
+
+dir
+2
+svn+ssh://lishengting@svn.code.sf.net/p/charttools/code-0/trunk/svg2xxx_release/fop-0.20.5/lib
+svn+ssh://lishengting@svn.code.sf.net/p/charttools/code-0
+
+
+
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+
+
+svn:special svn:externals svn:needs-lock
+
+batik.jar
+file
+
+
+
+
+2003-07-14T19:03:18.000000Z
+6c8bda261facc13948e63f2fa8778740
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+
+avalon-framework-cvs-20020806.jar
+file
+
+
+
+
+2003-07-14T19:03:24.000000Z
+87ae659dd271ef813701e4ee781e606a
+2012-02-29T09:52:22.550808Z
+2
+lishengting
+has-props
+
