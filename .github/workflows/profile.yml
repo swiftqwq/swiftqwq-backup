@@ -62,7 +62,7 @@ jobs:
           #plugin_achievements_ignored: octonaut  # Hide octonaut achievement
           plugin_achievements_limit: 0           # Display all unlocked achievement matching threshold and secrets params
       
-      - name: install deps
+      - name: Install deps
         run: |
           wget https://iweb.dl.sourceforge.net/project/charttools/Chart_Tools_20120229.zip
           sudo apt install unzip
@@ -75,7 +75,7 @@ jobs:
       - name: Clear tools
         run: |
           rm Chart_Tools_20120229.zip
-          rm -rf Chart_Tools_20120229
+          rm -rf Chart_Tools
           rm -rf __MACOSX
 
       - name: Commit #上传新的文件到仓库
