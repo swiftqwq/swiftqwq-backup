@@ -8,6 +8,10 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-java@v2
+        with:
+          distribution: 'zulu' # See 'Supported distributions' for available options
+          java-version: '11'
       - uses: lowlighter/metrics@master
         with:
           # You'll need to setup a personal token in your secrets.
@@ -62,23 +66,23 @@ jobs:
           sudo apt install unzip
           unzip Chart_Tools_20120229.zip
 
-      #- name: Convert to jpg
-      #  run: |
-      #    ./Chart_Tools/svg2xxx_release/svg2xxx  github-metrics.svg.svg -t png
+      - name: Convert to jpg
+        run: |
+          ./Chart_Tools/svg2xxx_release/svg2xxx  github-metrics.svg.svg -t png
 
-      # - name Clear tools
-      #  run: |
-      #    rm Chart_Tools_20120229.zip
-      #    rm -rf Chart_Tools_20120229
-      #    rm -rf __MACOSX
+       - name Clear tools
+        run: |
+          rm Chart_Tools_20120229.zip
+          rm -rf Chart_Tools_20120229
+          rm -rf __MACOSX
 
-      #- name: Commit #上传新的文件到仓库
-      #  run: |
-      #    git config --global user.email i@zhangyiming.tech
-      #    git config --global user.name swift-zym
-      #    git add .
-      #    git commit -m "convert to jpg" -a
-      #- name: Push changes
-      #  uses: ad-m/github-push-action@master
-      #  with:
-      #    github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit #上传新的文件到仓库
+        run: |
+          git config --global user.email i@zhangyiming.tech
+          git config --global user.name swift-zym
+          git add .
+          git commit -m "convert to jpg" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
