@@ -80,10 +80,12 @@ jobs:
 
       - name: Commit #上传新的文件到仓库
         run: |
+          ls
           git config --global user.email i@zhangyiming.tech
           git config --global user.name swift-zym
           git add .
           git commit -m "convert to jpg" -a
+          git pull
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
