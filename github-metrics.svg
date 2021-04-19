@@ -943,7 +943,11 @@
     overflow: hidden;
   }
 
-/* Syntax highlighting */
+/* Markdown and syntax highlighting */
+  .markdown b, .markdown i {
+    display: inline-block;
+    width: 97%;
+  }
   code {
     background-color: #7777771F;
     display: inline-block;
@@ -958,35 +962,23 @@
     width: 97%;
     margin-top: 4px;
   }
-  .token.comment, .token.prolog, .token.doctype, .token.cdata {
-    color: #6a737d;
+  .token.comment {
+    color: #669900;
   }
   .token.punctuation {
-    color: #24292e;
+    color: #8a93a8;
   }
-  .token.namespace, .token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol {
-    color: #d73a49;
+  .token.namespace, .token.constant, .token.symbol, .token.keyword {
+    color: #b44418;
   }
-  .token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
-    color: #032f62;
+  .token.regex, .token.string, .token.char, .token.number, .token.boolean {
+    color: #2777AA;
   }
-  .token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string, .token.variable {
-    color: #005cc5;
+  .token.property, .token.tag {
+    color: #48428a;
   }
-  .token.atrule, .token.attr-value, .token.keyword {
-    color: #6f42c1
-  }
-  .token.regex, .token.important {
-    color: #e90;
-  }
-  .token.important, .token.bold {
-    font-weight: bold;
-  }
-  .token.italic {
-    font-style: italic;
-  }
-  .token.deleted {
-    color: red;
+  .token.builtin, .token.operator {
+    color: #106cbc;
   }
   .token.trimmed {
     font-style: italic;
@@ -1315,7 +1307,7 @@
                 <section>
                     <div class="field error">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.343 13.657A8 8 0 1113.657 2.343 8 8 0 012.343 13.657zM6.03 4.97a.75.75 0 00-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 101.06 1.06L8 9.06l1.97 1.97a.75.75 0 101.06-1.06L9.06 8l1.97-1.97a.75.75 0 10-1.06-1.06L8 6.94 6.03 4.97z"/></svg>
-          API returned 429
+          API returned 500 (FAILED_DOCUMENT_REQUEST)
         </div>
                 </section>
             </div>
@@ -2882,7 +2874,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="11.609573201816971 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="11.614675083634584 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -3294,7 +3286,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions, timezone Asia/Shanghai</span>
-                <span>Last updated Mon, 19 Apr 2021 23:04:00 GMT with lowlighter/metrics@3.8.0-beta</span>
+                <span>Last updated Mon, 19 Apr 2021 23:39:05 GMT with lowlighter/metrics@3.8.0-beta</span>
             </footer>
             <div id="metrics-end"></div>
         </div>
