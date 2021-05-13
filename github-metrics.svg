@@ -1276,23 +1276,19 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="424.9644892961744" height="8" fill="#ecdebe"/>
-                    <rect mask="url(#languages-bar)" x="424.9644892961744" y="0" width="13.739855938658906" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="438.7043452348333" y="0" width="6.950867701640026" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="445.6552129364733" y="0" width="4.339015731395264" height="8" fill="#427819"/>
-                    <rect mask="url(#languages-bar)" x="449.9942286678686" y="0" width="4.027334545957555" height="8" fill="#0298c3"/>
-                    <rect mask="url(#languages-bar)" x="454.0215632138261" y="0" width="2.3731766138644823" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="456.39473982769056" y="0" width="2.351164092082827" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="458.7459039197734" y="0" width="1.2540960802265282" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="435.3930517679225" height="8" fill="#ecdebe"/>
+                    <rect mask="url(#languages-bar)" x="435.3930517679225" y="0" width="7.162171243700235" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="442.55522301162273" y="0" width="4.470920039239084" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="447.0261430508618" y="0" width="4.149763872935177" height="8" fill="#0298c3"/>
+                    <rect mask="url(#languages-bar)" x="451.17590692379696" y="0" width="2.663914251031172" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="453.8398211748281" y="0" width="2.445320214630427" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="456.28514138945854" y="0" width="2.4226385211680843" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="458.7077799106266" y="0" width="1.2922200893733524" height="8" fill="#f1e05a"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#ecdebe" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
               Roff
-            </div>
-                    <div class="field center no-wrap language">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#e34c26" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
-              HTML
             </div>
                     <div class="field center no-wrap language">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#f34b7d" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
@@ -1305,6 +1301,10 @@
                     <div class="field center no-wrap language">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#0298c3" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
               Perl
+            </div>
+                    <div class="field center no-wrap language">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#e34c26" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
+              HTML
             </div>
                     <div class="field center no-wrap language">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#555555" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
@@ -1337,7 +1337,7 @@
                 <section>
                     <div class="field error">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.343 13.657A8 8 0 1113.657 2.343 8 8 0 012.343 13.657zM6.03 4.97a.75.75 0 00-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 101.06 1.06L8 9.06l1.97 1.97a.75.75 0 101.06-1.06L9.06 8l1.97-1.97a.75.75 0 10-1.06-1.06L8 6.94 6.03 4.97z"/></svg>
-          API returned 429
+          API returned 500 (FAILED_DOCUMENT_REQUEST)
         </div>
                 </section>
             </div>
@@ -2923,7 +2923,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="16.68878698947235 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="16.69366605387493 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -3335,7 +3335,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions, timezone Asia/Shanghai</span>
-                <span>Last updated Thu, 13 May 2021 21:11:00 GMT with lowlighter/metrics@3.10.0-beta</span>
+                <span>Last updated Thu, 13 May 2021 21:44:22 GMT with lowlighter/metrics@3.10.0-beta</span>
             </footer>
             <div id="metrics-end"></div>
         </div>
