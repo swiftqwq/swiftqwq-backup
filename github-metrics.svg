@@ -1332,14 +1332,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="447.1988228859037" height="8" fill="#ecdebe"/>
-                    <rect mask="url(#languages-bar)" x="447.1988228859037" y="0" width="5.219285227524227" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="452.41810811342793" y="0" width="2.474717401875943" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="454.8928255153039" y="0" width="1.5448197546564997" height="8" fill="#427819"/>
-                    <rect mask="url(#languages-bar)" x="456.4376452699604" y="0" width="1.4338519033682309" height="8" fill="#0298c3"/>
-                    <rect mask="url(#languages-bar)" x="457.87149717332863" y="0" width="0.8449220609780509" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="458.71641923430667" y="0" width="0.8370849429302736" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="459.55350417723696" y="0" width="0.4464958227630679" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="443.5710517833249" height="8" fill="#ecdebe"/>
+                    <rect mask="url(#languages-bar)" x="443.5710517833249" y="0" width="6.442164860673623" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="450.01321664399853" y="0" width="3.2596701363722413" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="453.27288678037075" y="0" width="2.0348193359429567" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="455.3077061163137" y="0" width="1.888653720965033" height="8" fill="#0298c3"/>
+                    <rect mask="url(#languages-bar)" x="457.1963598372787" y="0" width="1.112921906818314" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="458.309281744097" y="0" width="1.1025989424118738" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="459.4118806865089" y="0" width="0.5881193134910868" height="8" fill="#f1e05a"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1394,8 +1394,8 @@
                         <div class="categorie column">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge high">
                                 <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="312.55 329"/>
-                                <text x="60" y="60" dominant-baseline="central">95</text>
+                                <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="302.68 329"/>
+                                <text x="60" y="60" dominant-baseline="central">92</text>
                             </svg>
                             <span class="title">Performance</span>
                         </div>
@@ -1455,7 +1455,7 @@
                     <div class="field">
                         <div class="audit text">
               
-                0.85 s
+                0.87 s
               
             </div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="audit high" viewBox="0 0 16 16" width="16" height="16">
@@ -1503,7 +1503,7 @@
                     <div class="field">
                         <div class="audit text">
               
-                0.85 s
+                0.87 s
               
             </div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="audit high" viewBox="0 0 16 16" width="16" height="16">
@@ -3070,7 +3070,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="18.28151973403412 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="18.286751598411335 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -3482,7 +3482,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions, timezone Asia/Shanghai</span>
-                <span>Last updated Fri, 21 May 2021 17:12:14 with lowlighter/metrics@3.10.0-beta</span>
+                <span>Last updated Fri, 21 May 2021 17:47:43 with lowlighter/metrics@3.10.0-beta</span>
             </footer>
             <div id="metrics-end"></div>
         </div>
