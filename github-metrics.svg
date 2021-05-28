@@ -1340,14 +1340,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="423.65791609288374" height="8" fill="#ecdebe"/>
-                    <rect mask="url(#languages-bar)" x="423.65791609288374" y="0" width="13.319334949750717" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="436.97725104263446" y="0" width="9.114031503850342" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="446.09128254648476" y="0" width="4.206939768246955" height="8" fill="#427819"/>
-                    <rect mask="url(#languages-bar)" x="450.2982223147317" y="0" width="3.90474589405913" height="8" fill="#0298c3"/>
-                    <rect mask="url(#languages-bar)" x="454.2029682087908" y="0" width="2.3015126844166973" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="456.50448089320753" y="0" width="2.2795966488641533" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="458.7840775420717" y="0" width="1.2159224579282804" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="448.7016192339408" height="8" fill="#ecdebe"/>
+                    <rect mask="url(#languages-bar)" x="448.7016192339408" y="0" width="4.3125033458264275" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="453.0141225797672" y="0" width="2.7655041110835237" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="455.77962669085076" y="0" width="1.2765272118329472" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="457.0561539026837" y="0" width="1.1848314127721664" height="8" fill="#0298c3"/>
+                    <rect mask="url(#languages-bar)" x="458.2409853154559" y="0" width="0.6983564614382057" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="458.9393417768941" y="0" width="0.6917063981381603" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="459.6310481750323" y="0" width="0.368951824967782" height="8" fill="#f1e05a"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1401,7 +1401,7 @@
                 <section>
                     <div class="field error">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.343 13.657A8 8 0 1113.657 2.343 8 8 0 012.343 13.657zM6.03 4.97a.75.75 0 00-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 101.06 1.06L8 9.06l1.97 1.97a.75.75 0 101.06-1.06L9.06 8l1.97-1.97a.75.75 0 10-1.06-1.06L8 6.94 6.03 4.97z"/></svg>
-          API returned 500 (FAILED_DOCUMENT_REQUEST)
+          API returned 429
         </div>
                 </section>
             </div>
@@ -2954,7 +2954,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="19.731925247336374 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="19.746163218226794 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -3087,7 +3087,7 @@
                   Maintainer
                   
                     <span class="gh">
-                      ranked 1.14m out of 231m repositories
+                      ranked 1.14m out of 232m repositories
                     </span>
                   
                 </div>
@@ -3282,7 +3282,7 @@
                   Inspirationer
                   
                     <span class="gh">
-                      ranked 3.49m out of 231m repositories
+                      ranked 3.49m out of 232m repositories
                     </span>
                   
                 </div>
@@ -3366,7 +3366,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions, timezone Asia/Shanghai</span>
-                <span>Last updated Fri, 28 May 2021 13:08:48 with lowlighter/metrics@3.10.0-beta</span>
+                <span>Last updated Fri, 28 May 2021 14:45:21 with lowlighter/metrics@3.10.0-beta</span>
             </footer>
             <div id="metrics-end"></div>
         </div>
