@@ -37,7 +37,7 @@
 These generated metrics comes with ABSOLUTELY NO
 WARRANTY, to the extent permitted by applicable law.
 
-Last generated: 12 Jan 2023, 11:11:27
+Last generated: 12 Jan 2023, 11:35:31
 </div>
 <div class="stdin"><span class="ps1-path">swift-zym@metrics</span>:<span class="ps1-location">~</span># whoami</div><div class="stdout"><b>Yiming Zhang</b> registered=2y, uid=9077, gid=5
   contributed to 12 repositories <b><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span></b>
@@ -56,18 +56,18 @@ Last generated: 12 Jan 2023, 11:11:27
   <b>   25</b> repositories starred
   <b>   25</b> repositories watched
 </div>
-<div class="stdin"><span class="ps1-path">swift-zym@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>JAVASCRIPT  </b> [###########         ] 50.15%
-<b>CSS         </b> [###                 ] 14.92%
-<b>C++         </b> [###                 ] 13.93%
-<b>MAKEFILE    </b> [##                  ] 6.43 %
+<div class="stdin"><span class="ps1-path">swift-zym@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>JAVASCRIPT  </b> [###########         ] 50.09%
+<b>CSS         </b> [###                 ] 14.94%
+<b>C++         </b> [###                 ] 13.95%
+<b>MAKEFILE    </b> [##                  ] 6.44 %
 <b>PERL        </b> [##                  ] 5.97 %
 <b>C           </b> [#                   ] 3.52 %
-<b>CMAKE       </b> [#                   ] 3.48 %
+<b>CMAKE       </b> [#                   ] 3.49 %
 <b>EJS         </b> [#                   ] 1.61 %
 </div>
 
 
-<footer>Connection reset by 100.10.47.57</footer></pre>
+<footer>Connection reset by 82.181.145.86</footer></pre>
 
     </div>
     <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
